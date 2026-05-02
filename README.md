@@ -40,9 +40,20 @@ When a person touches the desk or sits down, the touch pad detects occupancy. An
 
 ---
 
+## MQTT
+<img width="267" height="736" alt="PHOTO-2025-11-10-09-52-08" src="https://github.com/user-attachments/assets/dabbd5ee-5afc-4531-8c3b-bece2d65e6a4" />
+
+---
+
 ## Dashboard
+The Node-RED flow subscribes to the MQTT topic for each seat, passes incoming sensor data through an **Occupancy Logic** function node to determine presence, and routes the result to a **UI LED indicator**, a **debug node** for monitoring, and a **chart node** for real-time timeline visualization.
+
+<img width="1280" height="627" alt="PHOTO-2025-11-10-09-52-06" src="https://github.com/user-attachments/assets/d0e1b64f-471f-4889-a234-69c4eb05e487" />
+
 
 ### Real-Time Seat Status
+
+<img width="502" height="282" alt="PHOTO-2025-11-10-09-52-12" src="https://github.com/user-attachments/assets/dadddea0-8e37-424d-9ba6-4d9a83f9235f" />
 
 <img width="268" height="169" alt="Screenshot 2026-05-02 at 11 39 30 AM" src="https://github.com/user-attachments/assets/f93dcea4-7c20-4075-a2ba-401d4c87e069" />
 
