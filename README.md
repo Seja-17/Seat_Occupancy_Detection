@@ -55,10 +55,12 @@ The Node-RED flow subscribes to the MQTT topic for each seat, passes incoming se
 
 <img width="502" height="282" alt="PHOTO-2025-11-10-09-52-12" src="https://github.com/user-attachments/assets/dadddea0-8e37-424d-9ba6-4d9a83f9235f" />
 
+*Each circle on the Node-RED dashboard represents one seat. **Green** indicates the seat is **vacant**; **Orange/Red** indicates the seat is **occupied**. The MQTT topic (e.g., `iotb/team2/chair3`) and timestamp are shown on hover.*
+
 <img width="268" height="169" alt="Screenshot 2026-05-02 at 11 39 30 AM" src="https://github.com/user-attachments/assets/f93dcea4-7c20-4075-a2ba-401d4c87e069" />
 
 
-*Each circle on the Node-RED dashboard represents one seat. **Green** indicates the seat is **vacant**; **Orange/Red** indicates the seat is **occupied**. The MQTT topic (e.g., `iotb/team2/chair3`) and timestamp are shown on hover.*
+
 
 ### Seat Occupancy Timeline
 
